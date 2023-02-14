@@ -1,5 +1,4 @@
 const db = require("../models/contactModels")
-const jwt = require('jsonwebtoken')
 
 const isValidBody = function (body) {
     return Object.keys(body).length == 0
